@@ -1,9 +1,9 @@
 {
     "$schema": "https://go.kicad.org/pcm/schemas/v1",
-    "name": "marbastlib", // Replace with your library name
-    "description": "Template for creating a KiCad PCM library manifest to pair with a hosted library repository.",  // Replace with your short description
-    "description_full": "This repository is a template for distributing KiCad libraries through the Plugin and Content Manager (PCM). It is structured to hold your library files (symbols, footprints, 3D models, etc.) alongside a properly configured manifest.json. The included GitHub Actions workflow automates packaging and release creation, so your library can be easily installed and updated via PCM. Fork this template, drop in your KiCad content, and update the manifest fields to quickly publish your own PCM-ready library.", // Replace with your full description
-    "identifier": "com.github.justinlevinedotme.jal-kicad-lib", // Replace with your unique identifier
+    "name": "jal-kicad-powerpole", // Replace with your library name
+    "description": "KiCad Powerpole Repository",  // Replace with your short description
+    "description_full": "KiCad Powerpole Repository", // Replace with your full description
+    "identifier": "com.github.justinlevinedotme.jal-kicad-powerpole", // Replace with your unique identifier
     "type": "library",
     "author": {
         "name": "Justin Levine", // Replace with your name
@@ -19,7 +19,7 @@
     },
     "license": "CERN-OHL", // Replace with your license
     "resources": {
-        "homepage": "https://github.com/justinlevinedotme/jal-kicad-lib" // Replace with your project homepage
+        "homepage": "https://github.com/justinlevinedotme/jal-kicad-powerpole" // Replace with your project homepage
     },
     "versions": [{
         "version": "VERSION_HERE",

@@ -1,0 +1,129 @@
+(footprint "APP_25A_PP15-45_SingleVertical_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.025 5.1 0)
+		(layer "F.SilkS")
+		(uuid "807ed0b2-0567-4c3f-84dd-e3ab790199a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "APP_25A_PP15-45_SingleVertical_THT"
+		(at -0.175 8.05 0)
+		(layer "F.Fab")
+		(uuid "6ab50b12-e4b9-442d-935e-0d87e5c0f002")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50b00d22-c0a3-4edb-a0dd-54f8131b9a72")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1aef9442-9d62-4322-9c23-78b536e9e10e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr through_hole)
+	(fp_rect
+		(start -3.95 -3.95)
+		(end 3.95 3.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a0b90947-6a8e-4337-a84d-09146ac752c2")
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 5.55 2.1)
+		(drill oval 4.55 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "11e7cf08-7194-484e-ad05-efb681aa4b4d")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "*.CrtYd")
+		(uuid "a95a48df-556a-482a-92d3-c462c685b755")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -4 -4) (xy 4 -4) (xy 4 4) (xy -4 4)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Connector_Anderson.3dshapes/1336G1 IN HSG.STEP"
+		(offset
+			(xyz 1.9 -1.5 4.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 90)
+		)
+	)
+	(model "${KIPRJMOD}/Connector_Anderson.3dshapes/1336G1 IN HSG.STEP"
+		(offset
+			(xyz 9.8 -1.5 4.15)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 90)
+		)
+	)
+)
