@@ -1,0 +1,33 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "marbastlib", // Replace with your library name
+    "description": "Template for creating a KiCad PCM library manifest to pair with a hosted library repository.",  // Replace with your short description
+    "description_full": "This repository is a template for distributing KiCad libraries through the Plugin and Content Manager (PCM). It is structured to hold your library files (symbols, footprints, 3D models, etc.) alongside a properly configured manifest.json. The included GitHub Actions workflow automates packaging and release creation, so your library can be easily installed and updated via PCM. Fork this template, drop in your KiCad content, and update the manifest fields to quickly publish your own PCM-ready library.", // Replace with your full description
+    "identifier": "com.github.justinlevinedotme.jal-kicad-lib", // Replace with your unique identifier
+    "type": "library",
+    "author": {
+        "name": "Justin Levine", // Replace with your name
+        "contact": {
+            "homepage": "https://justinlevine.me" // Replace with your website or remove this line
+        }
+    },
+    "maintainer": {
+        "name": "Justin Levine", // Replace with your name
+        "contact": {
+            "homepage": "https://justinlevine.me" // Replace with your website or remove this line
+        }
+    },
+    "license": "CERN-OHL", // Replace with your license
+    "resources": {
+        "homepage": "https://github.com/justinlevinedotme/jal-kicad-lib" // Replace with your project homepage
+    },
+    "versions": [{
+        "version": "VERSION_HERE",
+        "status": "testing",
+        "kicad_version": "9.0",
+        "download_sha256": "SHA256_HERE",
+        "download_size": DOWNLOAD_SIZE_HERE,
+        "download_url": "DOWNLOAD_URL_HERE",
+        "install_size": INSTALL_SIZE_HERE
+    }]
+}
