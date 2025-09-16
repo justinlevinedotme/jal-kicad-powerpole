@@ -40,6 +40,6 @@ jobs:
         with:
           workflow: Rebuild repository
           ref: refs/heads/main
-          repo: ${env.KICAD_PCM_REPO}
+          repo: ${{ env.KICAD_PCM_REPO }}
           token: ${{ secrets.PERSONAL_TOKEN }}
           inputs: '{ "VERSION": "${{env.VERSION}}", "DOWNLOAD_SHA256": "${{env.DOWNLOAD_SHA256}}", "DOWNLOAD_SIZE": "${{env.DOWNLOAD_SIZE}}", "DOWNLOAD_URL": "${{env.DOWNLOAD_URL}}", "INSTALL_SIZE": "${{env.INSTALL_SIZE}}", "KICAD_VERSION": "${{env.KICAD_VERSION}}", "PROJECT_NAME": "${{env.PROJECT_NAME}}" }'
